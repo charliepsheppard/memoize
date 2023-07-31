@@ -35,6 +35,11 @@ app.get('/profile', (req, res) => {
   }
 });
 
+app.post('/login', (req, res) => {
+  const {username, password} = req.body;
+  
+});
+
 app.post('/register', async (req, res) => {
   const {username, password} = req.body;
   try {

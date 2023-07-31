@@ -1,4 +1,4 @@
-import Register from './Register';
+import Register from './RegisterAndLoginForm';
 import {useContext} from 'react';
 import {UserContext} from './UserContext';
 
